@@ -4,7 +4,7 @@
     <div class="sidebar-header" v-if="!isCollapsed || !isMobile">
       <router-link to="/home" class="sidebar-logo">
         <img src="../assets/ssng.png" alt="Logo" class="logo-img" />
-        <span class="logo-text">烁烁南光在线免费影视</span>
+        <span class="logo-text">灬灬TV</span>
       </router-link>
     </div>
 
