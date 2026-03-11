@@ -1,7 +1,7 @@
-# 烁烁南光在线免费影视
+# 在线免费影视
 
 <div align="center">
-  <img src="src/assets/ssng.png" alt="烁烁南光在线免费影视" width="200" />
+  <img src="src/assets/ssng.png" alt="在线免费影视" width="200" />
   <h3>优雅，高效，易用的在线影视观影平台</h3>
 </div>
 
