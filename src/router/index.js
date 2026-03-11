@@ -16,7 +16,7 @@ const routes = [
     name: 'Home',
     component: HomePage,
     meta: {
-      title: 'SSNG TV - 在线影视网站'
+      title: '灬灬TV'
     }
   },
   {
@@ -25,7 +25,7 @@ const routes = [
     component: () => import('@/views/TVNav.vue'),
     props: { type: 'tv' },
     meta: {
-      title: '电视剧 - 在线影视网站'
+      title: '电视剧'
     }
   },
   {
@@ -33,7 +33,7 @@ const routes = [
     name: 'Movies',
     component: MovieNav,
     meta: {
-      title: '电影 - 在线影视网站'
+      title: '电影'
     }
   },
   {
@@ -41,7 +41,7 @@ const routes = [
     name: 'Anime',
     component: AnimeNav,
     meta: {
-      title: '动漫 - 在线影视网站'
+      title: '动漫'
     }
   },
   {
@@ -50,7 +50,7 @@ const routes = [
     component: () => import('@/views/ShortsNav.vue'),
     props: { type: 'shorts' },
     meta: {
-      title: '短剧 - 在线影视网站'
+      title: '短剧'
     }
   },
   {
@@ -58,7 +58,7 @@ const routes = [
     name: 'Variety',
     component: VarietyNav,
     meta: {
-      title: '综艺 - 在线影视网站'
+      title: '综艺'
     }
   },
   {
@@ -66,7 +66,7 @@ const routes = [
     name: 'ExternalVideo',
     component: () => import('@/views/ExternalVideo.vue'),
     meta: {
-      title: '凌云影视 - 在线影视网站'
+      title: '凌云影视'
     }
   },
   {
@@ -74,7 +74,7 @@ const routes = [
     name: 'MessageBoard',
     component: () => import('@/views/MessageBoard.vue'),
     meta: {
-      title: '评论留言 - 在线影视网站'
+      title: '评论留言'
     }
   },
   {
@@ -82,7 +82,7 @@ const routes = [
     name: 'SouPian',
     component: () => import('@/views/SouPianView.vue'),
     meta: {
-      title: '搜片.com - 在线影视网站'
+      title: '搜片.com'
     }
   },
   {
@@ -90,7 +90,7 @@ const routes = [
     name: 'Search',
     component: () => import('@/views/Search.vue'),
     meta: {
-      title: '搜索 - 在线影视网站'
+      title: '搜索'
     }
   },
   {
@@ -98,7 +98,7 @@ const routes = [
     name: 'Favorites',
     component: () => import('../views/Favorites.vue'),
     meta: {
-      title: '我的收藏 - 在线影视网站'
+      title: '我的收藏'
     }
   },
   {
@@ -106,7 +106,7 @@ const routes = [
     name: 'History',
     component: () => import('../views/History.vue'),
     meta: {
-      title: '观看历史 - 在线影视网站'
+      title: '观看历史'
     }
   },
   {
@@ -115,7 +115,7 @@ const routes = [
     component: () => import('@/views/VideoDetail.vue'),
     props: true,
     meta: {
-      title: '影片详情 - 在线影视网站'
+      title: '影片详情'
     }
   },
   {
@@ -124,7 +124,7 @@ const routes = [
     component: () => import('../views/VideoPlay.vue'),
     props: true,
     meta: {
-      title: '正在播放 - 在线影视网站'
+      title: '正在播放'
     }
   },
   {
@@ -132,7 +132,7 @@ const routes = [
     name: 'Activity',
     component: () => import('../views/ActivityStats.vue'),
     meta: {
-      title: '活动记录 - 在线影视网站'
+      title: '活动记录'
     }
   },
   {
@@ -169,7 +169,7 @@ const router = createRouter({
 // 全局导航守卫，用于更新页面标题
 router.beforeEach((to, from, next) => {
   // 设置页面标题
-  document.title = to.meta.title || 'SSNG TV - 在线影视网站'
+  document.title = to.meta.title || '灬灬TV'
   next()
 })
 
