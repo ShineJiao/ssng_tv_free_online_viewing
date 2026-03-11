@@ -14,13 +14,13 @@ export default async function handler(req, res) {
 
   let targetUrl = '';
   if (url.startsWith('/api/api.php/provide/vod/')) {
-    targetUrl = `https://www.heimuer.tv${url.replace('/api', '')}`;
-  } else if (url.startsWith('/ikun/')) {
-    targetUrl = `https://ikunzy.net${url.replace('/ikun', '')}`;
-  } else if (url.startsWith('/subo/')) {
-    targetUrl = `https://www.suboziyuan.net${url.replace('/subo', '')}`;
-  } else if (url.startsWith('/huawei/')) {
-    targetUrl = `https://cjhwba.com${url.replace('/huawei', '')}`;
+    targetUrl = `https://cj.rycjapi.com${url.replace('/ruyi', '')}`;
+  } else if (url.startsWith('/douban/')) {
+    targetUrl = `https://caiji.dbzy5.com${url.replace('/douban', '')}`;
+  } else if (url.startsWith('/liangzi/')) {
+    targetUrl = `https://cj.lziapi.com${url.replace('/liangzi', '')}`;
+  } else if (url.startsWith('/wangwang')) {
+    targetUrl = `https://api.wwzy.tv${url.replace('/wangwang', '')}`;
   } else if (url.startsWith('/jisu/')) {
     targetUrl = `https://www.jisuzy.com${url.replace('/jisu', '')}`;
   } else if (url.startsWith('/360/')) {
